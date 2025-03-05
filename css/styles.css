@@ -62,7 +62,7 @@ button{
 .header-container{
     display: flex;
     margin: 0 auto;
-    padding: 24px 0;
+    padding: 15px 0;
     align-items: center;
 }
 .logo-header { 
@@ -200,7 +200,7 @@ button{
 }
 
 .dscr-list-item {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .dscr-item-title {
